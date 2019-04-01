@@ -1,0 +1,37 @@
+/*selector universal */
+* {
+  border: 1px solid red;
+  margin: 10px;
+}
+
+/*selector etiqueta*/
+header{
+  background-color: blue;
+}
+section{
+background-color: purple;
+}
+
+/* selector descendente - h3 que esten dentro de article */
+article h3{
+  color: green;
+}
+
+/* selectores de clase */
+.title-a{
+  background-color: yellow;
+}
+.title-b{
+  background-color: salmon;
+}
+
+/*selector de id (unico elemento)*/
+#header{
+border: 3px solid black;
+}
+#portada{
+border: 3px solid orange;
+}
+#producto{
+border: 3px solid brown;
+}

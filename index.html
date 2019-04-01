@@ -3,44 +3,47 @@
   <head>
     <meta charset="utf-8">
     <title> Home | OK </title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header> <!--header-->
+    <header id="header"> <!--header-->
       <figure> <!--logo-->
-        <img src="images/logo.png" height="100px" width="185px" alt="Marca logo">  <!--alt descriptivo -ruta relativa-->
+        <img src="images/logo.png" height="100px" width="185px" alt="Marca logo">  <!--ruta relativa-->
       </figure>
       <nav><!--menu-->
         <ul>
-          <li><a>home</a></li>
-          <li><a>precios</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="precios.html">Precios</a></li>
+          <li><a href="#producto">Productos</a></li>
         </ul>
       </nav>
     </header>
-    <section> <!--portada-->
-      <h1>Titulo de producto</h1><!-- titulo -->
-      <h3>Resumen o slogan del producto</h3><!-- resumen -->
-      <button>Ver mas</button><!-- boton -->
+    <section id="portada"> <!--portada-->
+      <h1>Titulo de producto</h1>
+      <h3 class="title-a">Resumen o slogan del producto</h3>
+      <button>Ver mas</button>
     </section>
-    <section><!--producto-->
-      <h2>Nuestros Articulos</h2><!--titulo-->
-      <article> <!--prducto1-->
-      <h3>titulo producto</h3>
-      <img src="images/producto.png" width="200" height="200" alt="Producto 1"> <!--imagen-->
+    <section id="producto"> <!--productos-->
+      <h2>Nuestros Productos</h2>
+      <article> <!--producto 1-->
+      <h3 class="title-b">titulo producto</h3>
+      <img src="images/producto.png" width="200" height="200" alt="Producto 1">
       <ul>
         <li>Style</li>
         <li>ingredientes</li>
         <li>incluye</li>
       </ul>
       </article>
-      <article> <!--producto2-->
-      <h3>titulo producto</h3>
-      <img src="images/producto.png" width="200" height="200" alt="Producto 1"> <!--imagen-->
+      <article> <!--prducto 2-->
+      <h3 class="title-b">titulo producto</h3>
+      <img src="images/producto.png" width="200" height="200" alt="Producto 1">
       <ul>
-        <li>Style2</li>
-        <li>ingredientes2</li>
-        <li>incluye2</li>
+        <li>Style</li>
+        <li>ingredientes</li>
+        <li>incluye</li>
       </ul>
       </article>
+
     </section>
   </body>
 </html>
