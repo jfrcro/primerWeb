@@ -1,37 +1,42 @@
-/*selector universal */
-* {
-  border: 1px solid red;
-  margin: 10px;
+.titulo{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
 }
 
-/*selector etiqueta*/
-header{
-  background-color: blue;
-}
-section{
-background-color: purple;
-}
-
-/* selector descendente - h3 que esten dentro de article */
-article h3{
-  color: green;
-}
-
-/* selectores de clase */
 .title-a{
-  background-color: yellow;
-}
-.title-b{
-  background-color: salmon;
+  font-size: 24px;
 }
 
-/*selector de id (unico elemento)*/
-#header{
-border: 3px solid black;
+.title-b{
+  font-size: 50px;
 }
-#portada{
-border: 3px solid orange;
+
+.productos h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
 }
-#producto{
-border: 3px solid brown;
+.portada{
+  background-image: url("../images/background.png");
+  color: white;
+}
+
+.productos{
+  color: #1F313C;
+}
+
+.menu{
+  font-size: 24px;
+  display: inline-block;
+}
+
+body{
+font-family: 'Allerta', sans-serif;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.logo{
+  display: inline-block;
 }
