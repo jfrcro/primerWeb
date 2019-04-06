@@ -23,8 +23,6 @@
   background-image: url("../images/background.png");
   color: white;
   padding: 20px;
-  width: 800px;
-  margin: auto;
 }
 
 .portada button{
@@ -33,8 +31,6 @@
 
 .productos{
   color: #1F313C;
-  width: 800px;
-  margin: auto;
 }
 
 .menu{
@@ -56,7 +52,7 @@ margin: 0;
   display: inline-block;
 }
 
-.header{
+.contenedor{
   width: 800px;
   margin: auto;
 }
