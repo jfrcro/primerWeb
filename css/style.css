@@ -33,6 +33,10 @@
   color: #1F313C;
 }
 
+.producto ol{
+  padding: 0;
+}
+
 .menu{
   font-size: 24px;
   display: inline-block;
@@ -55,4 +59,26 @@ margin: 0;
 .contenedor{
   width: 800px;
   margin: auto;
+}
+
+.derecha{
+  float: right;
+}
+.izquierda{
+  float: left;
+}
+
+.producto{
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  border: 1px solid #1F313C;
+}
+
+.contenedor-producto-a{
+  padding-left: 20px;
+}
+
+.contenedor-producto-b{
+  margin-left: 370px;
 }
